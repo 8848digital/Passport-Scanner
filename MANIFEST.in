@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include passport *.css
+recursive-include passport *.csv
+recursive-include passport *.html
+recursive-include passport *.ico
+recursive-include passport *.js
+recursive-include passport *.json
+recursive-include passport *.md
+recursive-include passport *.png
+recursive-include passport *.py
+recursive-include passport *.svg
+recursive-include passport *.txt
+recursive-exclude passport *.pyc
