@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-24 16:42:12.151636",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image1",
+  "column_break_agel",
+  "image_preview_1",
+  "column_break_o1iz",
+  "scan_image1",
+  "section_break_kpcb",
+  "passport_data"
+ ],
+ "fields": [
+  {
+   "fieldname": "image1",
+   "fieldtype": "Attach Image",
+   "label": "Image1"
+  },
+  {
+   "fieldname": "column_break_agel",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image_preview_1",
+   "fieldtype": "Image",
+   "label": "Image Preview 1",
+   "options": "image1"
+  },
+  {
+   "fieldname": "column_break_o1iz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "scan_image1",
+   "fieldtype": "Check",
+   "label": "Scan Image"
+  },
+  {
+   "fieldname": "passport_data",
+   "fieldtype": "Table",
+   "label": "Passport Data",
+   "options": "Passport Data"
+  },
+  {
+   "fieldname": "section_break_kpcb",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-24 17:37:36.845392",
+ "modified_by": "Administrator",
+ "module": "passport",
+ "name": "Passport",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

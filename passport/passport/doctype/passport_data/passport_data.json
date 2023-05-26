@@ -1,0 +1,37 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-24 16:41:50.618806",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "label",
+  "ocr_text"
+ ],
+ "fields": [
+  {
+   "fieldname": "label",
+   "fieldtype": "Small Text",
+   "label": "Label"
+  },
+  {
+   "fieldname": "ocr_text",
+   "fieldtype": "Small Text",
+   "label": "Ocr Text"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-24 16:41:50.618806",
+ "modified_by": "Administrator",
+ "module": "passport",
+ "name": "Passport Data",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
